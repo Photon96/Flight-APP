@@ -23,7 +23,6 @@ public class CustomJsonDateDeserializer extends JsonDeserializer<DateTime>
 
         DateTimeFormatter dtf = DateTimeFormat.forPattern("yyyy-MM-dd'T'HH:mm:ss Z");
         String date = jsonParser.getText();
-        System.out.println(dtf.parseDateTime(date).toString());
         return dtf.parseDateTime(date);
 
     }
