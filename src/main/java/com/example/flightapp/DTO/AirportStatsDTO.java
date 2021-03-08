@@ -1,6 +1,6 @@
 package com.example.flightapp.DTO;
 
-import com.example.flightapp.IATACode;
+import com.example.flightapp.Enums.IATACode;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

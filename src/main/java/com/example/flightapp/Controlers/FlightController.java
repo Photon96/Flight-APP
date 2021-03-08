@@ -1,6 +1,5 @@
 package com.example.flightapp.Controlers;
 
-import com.example.flightapp.*;
 import com.example.flightapp.Assemblers.FlightAssembler;
 import com.example.flightapp.Assemblers.FlightStatsDTOAssembler;
 import com.example.flightapp.DTO.AirportStatsDTO;
@@ -9,6 +8,7 @@ import com.example.flightapp.Entities.Baggage;
 import com.example.flightapp.Entities.Cargo;
 import com.example.flightapp.Entities.CargoEntity;
 import com.example.flightapp.Entities.Flight;
+import com.example.flightapp.Enums.IATACode;
 import com.example.flightapp.Exceptions.CargoNotFoundException;
 import com.example.flightapp.Exceptions.FlightNotFoundException;
 import com.example.flightapp.Exceptions.IATACodeException;

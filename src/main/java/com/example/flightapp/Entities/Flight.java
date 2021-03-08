@@ -1,7 +1,7 @@
 package com.example.flightapp.Entities;
 
-import com.example.flightapp.CustomJsonDateDeserializer;
-import com.example.flightapp.IATACode;
+import com.example.flightapp.JsonHandlers.CustomJsonDateDeserializer;
+import com.example.flightapp.Enums.IATACode;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;

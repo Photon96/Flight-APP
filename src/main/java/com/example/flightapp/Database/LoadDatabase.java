@@ -1,4 +1,4 @@
-package com.example.flightapp;
+package com.example.flightapp.Database;
 
 import com.example.flightapp.Entities.CargoEntity;
 import com.example.flightapp.Entities.Flight;

@@ -1,7 +1,7 @@
 package com.example.flightapp.Repositories;
 
 import com.example.flightapp.Entities.Flight;
-import com.example.flightapp.IATACode;
+import com.example.flightapp.Enums.IATACode;
 import org.joda.time.LocalDate;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

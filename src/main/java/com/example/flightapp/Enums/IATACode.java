@@ -1,4 +1,4 @@
-package com.example.flightapp;
+package com.example.flightapp.Enums;
 
 public enum IATACode {
     SEA,
