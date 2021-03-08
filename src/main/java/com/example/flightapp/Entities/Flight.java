@@ -35,7 +35,7 @@ public class Flight {
     @JsonProperty("departureDate")
     @JsonDeserialize(using = CustomJsonDateDeserializer.class)
     @Column(length = 1000)
-    @JsonFormat(pattern="yyyy-MM-dd")
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm")
     @Getter private DateTime departureDate;
 
     @JsonIgnore
